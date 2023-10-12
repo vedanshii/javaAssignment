@@ -8,8 +8,10 @@ public class Customer {
         this.name = name;
         this.addr = addr;
     }
-    public String getDetails(){
-        return id+name+addr+" game hogaya.";
+
+    @Override
+    public String toString() {
+        return "id=" + id +", name='" + name + '\'' + ", addr='" + addr + '\'' + '}';
     }
 
 
