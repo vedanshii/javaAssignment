@@ -2,11 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day10Adi" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Day7intf" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FruitBasket" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Test1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TestIDE" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dayidk" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/githubTuts" vcs="Git" />
   </component>
 </project>
