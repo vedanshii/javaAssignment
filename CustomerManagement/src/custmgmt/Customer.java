@@ -9,7 +9,7 @@ public class Customer {
     String email;
     String password;
     double registrationAmount;
-    LocalDate dob;
+//    LocalDate dob;
 
     ServicePlan plan;
 
@@ -18,15 +18,22 @@ public class Customer {
     }
 
 
+    public String getPassword() {
+        return password;
+    }
 
-    public Customer(int customerid, String firstname, String lastname, String email, String password, double registrationAmount, LocalDate dob, ServicePlan plan) {
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Customer(int customerid, String firstname, String lastname, String email, String password, double registrationAmount/*, LocalDate dob*/, ServicePlan plan) {
         this.customerid = customerid;
         this.firstname = firstname;
         this.lastname = lastname;
         this.email = email;
         this.password = password;
         this.registrationAmount = registrationAmount;
-        this.dob = dob;
+//        this.dob = dob;
         this.plan = plan;
     }
 
@@ -41,7 +48,7 @@ public class Customer {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", registrationAmount=" + registrationAmount +
-                ", dob=" + dob +
+                /*", dob=" + dob +*/
                 ", plan=" + plan +
                 '}';
     }
